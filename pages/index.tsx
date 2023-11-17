@@ -22,7 +22,7 @@ const Home: NextPage = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex(nextImageIndex);
-    }, 2000); // Change image every 3 seconds
+    }, 2000); // Change image every 2 seconds
 
     return () => clearInterval(interval);
   }, [nextImageIndex]);
