@@ -46,6 +46,7 @@ const Signin: NextPage<Props> = () => {
       return (
         <div className="flex flex-col items-center justify-center h-screen">
           <form onSubmit={handleSignin} className="w-full max-w-xs">
+          {errorMessage && <p className="bg-green-100 text-green-700 border border-green-400 rounded py-2 px-4 mb-4 text-center">{errorMessage}</p>}
             <div className="mb-4">
               <label htmlFor="email" className="block text-gray-700 text-sm font-bold mb-2">
                 Email
