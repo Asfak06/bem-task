@@ -3,10 +3,10 @@ import { getCookie } from 'cookies-next';
 import Router from 'next/router';
 import type { NextPageContext } from 'next';
 
-// Define your cookie name for the auth token
+// Define cookie name for the auth token
 const AUTH_TOKEN_COOKIE_NAME = 'authToken';
 
-// Define your redirect paths
+// Define redirect paths
 const LOGIN_PAGE = '/signin';
 const HOME_PAGE = '/home';
 
