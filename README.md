@@ -2,6 +2,10 @@
 
 This project is built using Next.js, React, and Tailwind CSS. It also uses a custom server setup with Express.
 
+## Hosted live
+
+http://62.72.13.27:3007
+
 ## Getting Started
 
 First, install the dependencies:
