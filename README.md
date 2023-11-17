@@ -33,4 +33,4 @@ npm start
 
 ## Note :
 
-separate port is used for development and productior mode. task-server.js file is used for the sake of deployment.
+separate port is used for development(3007) and production(3000) mode. task-server.js file is used for the sake of deployment.
