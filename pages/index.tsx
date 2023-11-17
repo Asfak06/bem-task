@@ -40,7 +40,6 @@ const Home: NextPage = () => {
         <button className='w-32 mx-2 py-2 bg-slate-800 text-white rounded hover:bg-slate-600 transition-colors duration-300 ease-in-out' onClick={() => setCurrentImageIndex(prevImageIndex)}>Previous</button>
         <button className='w-32 mx-2 py-2 bg-slate-800 text-white rounded hover:bg-slate-600 transition-colors duration-300 ease-in-out' onClick={() => setCurrentImageIndex(nextImageIndex)}>Next</button>
       </div>
-      {/* Additional content goes here */}
     </div>
     </Layout>
   );
